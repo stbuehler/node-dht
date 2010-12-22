@@ -1,13 +1,21 @@
 {
-  "name": "node-dht",
+  "name": "dht",
   "description": "DHT implementation (http://bittorrent.org/beps/bep_0005.html)",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "homepage": "https://github.com/stbuehler/node-dht",
   "author": "Stefan Bühler <stbuehler@lighttpd.net>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stbuehler/node-dht.git"
+  },
   "main": "./lib/dht",
   "directories": {
-    "lib": ""
+    "lib": "lib",
   },
   "engines": {
     "node": "*"
+  },
+  dependencies: {
+    "dht-bencode": "*"
   }
 }
