@@ -10,12 +10,12 @@
   },
   "main": "./lib/dht",
   "directories": {
-    "lib": "lib",
+    "lib": "lib"
   },
   "engines": {
     "node": "*"
   },
-  dependencies: {
+  "dependencies": {
     "dht-bencode": "*"
   }
 }
